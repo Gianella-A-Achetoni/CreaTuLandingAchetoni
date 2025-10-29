@@ -2,6 +2,17 @@ import oudWood from "../assets/image/oud_wood.jpg";
 import aventus from "../assets/image/aventus.jpg"
 import Baccarat from "../assets/image/Baccarat.webp"
 import milion from "../assets/image/1_million.jpg"
+import acqua from "../assets/image/acqua_gio.jpg"
+import black_opium from "../assets/image/black_opum.jpg"
+/* import coco_m from "../assets/image/coco_m.jpg" */
+import daisy from "../assets/image/Daisy.jpg"
+import gabrielle from "../assets/image/gabrielle.jpg"
+import gucci_bloom from "../assets/image/gucci_bloom.jpg"
+import light_blue from "../assets/image/light_blue.jpg"
+/* import miss_dior from "../assets/image/miss_dior.jpg" */
+import versace_fraiche from "../assets/image/versace_fraiche.jpg"
+import armani_code from "../assets/image/armani_code.jpg"
+
 
 const products = [
   // Premium (3)
@@ -39,7 +50,7 @@ const products = [
     name: "Marc Jacobs Daisy",
     description: "Floral fresco juvenil",
     stock: 10,
-    image: "/image/daisy.jpg",
+    image: daisy,
     price: 90,
     category: "florales"
   },
@@ -48,7 +59,7 @@ const products = [
     name: "Gucci Bloom",
     description: "Floral intenso elegante",
     stock: 8,
-    image: "/image/gucci_bloom.jpg",
+    image: gucci_bloom,
     price: 110,
     category: "florales"
   },
@@ -57,7 +68,7 @@ const products = [
     name: "Chanel Gabrielle",
     description: "Floral sofisticado",
     stock: 6,
-    image: "/image/gabrielle.jpg",
+    image: gabrielle,
     price: 150,
     category: "florales"
   },
@@ -68,7 +79,7 @@ const products = [
     name: "Light Blue - D&G",
     description: "Cítrico fresco veraniego",
     stock: 12,
-    image: "/image/light_blue.jpg",
+    image: light_blue,
     price: 85,
     category: "citrico"
   },
@@ -77,7 +88,7 @@ const products = [
     name: "Versace Eau Fraîche",
     description: "Cítrico aromático masculino",
     stock: 9,
-    image: "/image/versace_fraiche.jpg",
+    image: versace_fraiche,
     price: 95,
     category: "citrico"
   },
@@ -86,7 +97,7 @@ const products = [
     name: "Acqua di Gio",
     description: "Cítrico acuático",
     stock: 11,
-    image: "/image/acqua_gio.jpg",
+    image: acqua,
     price: 130,
     category: "citrico"
   },
@@ -97,7 +108,7 @@ const products = [
     name: "YSL Black Opium",
     description: "Ámbar dulce nocturno",
     stock: 7,
-    image: "/image/black_opium.jpg",
+    image: black_opium,
     price: 130,
     category: "orientales"
   },
@@ -115,13 +126,13 @@ const products = [
     name: "Armani Code",
     description: "Oriental cálido y elegante",
     stock: 8,
-    image: "/image/armani_code.jpg",
+    image: armani_code,
     price: 140,
     category: "orientales"
   },
 
   // Chipre (3)
-  {
+ /*  {
     id: 13,
     name: "Miss Dior",
     description: "Chipre floral clásico",
@@ -205,7 +216,7 @@ const products = [
     image: "/image/scandal.jpg",
     price: 125,
     category: "gourmand"
-  }
+  } */
 ]
 
 const getProducts = () => {

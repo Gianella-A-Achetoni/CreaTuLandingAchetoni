@@ -20,9 +20,9 @@ const NavBar = () => {
           <li><Link to="/category/florales">Florales</Link></li>
           <li><Link to="/category/citrico">Cítricos</Link></li>
           <li><Link to="/category/orientales">Orientales/Ambar</Link></li>
-          <li><Link to="/category/chipre">Chipre</Link></li>
+          {/* <li><Link to="/category/chipre">Chipre</Link></li>
           <li><Link to="/category/fougere">Fougère</Link></li>
-          <li><Link to="/category/gourmand">Gourmand</Link></li>
+          <li><Link to="/category/gourmand">Gourmand</Link></li> */}
         </ul>
         {/* Componente del carrito */}
         <div>
